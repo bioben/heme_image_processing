@@ -41,13 +41,13 @@ The workflow takes approximately 20 minutes per image condition.
 ### Step 0 Folder Setup
 Folders should be organized as following  
 ./images  
-	./brainCondition1  
-		./brainCondition1_488  
-		./brainCondition1_488_nosensor  
-		./brainCondition1_555  
-		./brainCondition1_555_nosensor  
-	./brainCondition2  
-	./brainConditionN  
+&nbsp;&nbsp;&nbsp;&nbsp;./brainCondition1  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./brainCondition1_488  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./brainCondition1_488_nosensor  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./brainCondition1_555  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./brainCondition1_555_nosensor  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./brainCondition2  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./brainConditionN  
 
 The FolderSetup is a Java Program which can be run off the terminal. This program takes in the path to a directory, takes each subfolder within that path, and adds a subfolder with a user-input name.  
 
@@ -57,21 +57,21 @@ Tiled images should be organized such that all tiles are named in numerical orde
 
 The folders should be organized as follows  
 ./images  
-	./brainCondition1  
-		./brainCondition1_488  
-			./hor  
-			./hor_corrected  
-		./brainCondition1_488_nosensor 
-			./hor  
-			./hor_corrected   
-		./brainCondition1_555  
-			./hor  
-			./hor_corrected  
-		./brainCondition1_555_nosensor  
-			./hor  
-			./hor_corrected  
-	./brainCondition2  
-	./brainConditionN  
+    ./brainCondition1  
+        ./brainCondition1_488  
+            ./hor  
+            ./hor_corrected  
+        ./brainCondition1_488_nosensor 
+            ./hor  
+            ./hor_corrected   
+        ./brainCondition1_555  
+            ./hor  
+            ./hor_corrected  
+        ./brainCondition1_555_nosensor  
+            ./hor  
+            ./hor_corrected  
+    ./brainCondition2  
+    ./brainConditionN  
 
 Additionally, a folder should be made to save the final images. The user should make this folder themselves. The heme_runscript_ImageJ.m will ask for the path to this save folder.  
 
